@@ -15,6 +15,38 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Column to Comma"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Convert HEX color values in your Clipboard to RGBA values.",
+        "filename" : "hex-to-rgba.sh",
+        "icon" : "🎨",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Conversions",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Hex to RGBA"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Convert HEX color values in your Clipboard to RGB values.",
+        "filename" : "hex-to-rgb.sh",
+        "icon" : "🎨",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "Conversions",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Hex to RGB"
       }
     ]
   },
@@ -223,6 +255,22 @@
     "path" : "system",
     "scriptCommands" : [
       {
+        "author" : {
+          "name" : "Valentin Chrétien",
+          "url" : "https:\/\/twitter.com\/valentinchrt"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "A script command to start your current screen saver.",
+        "filename" : "screensaver.sh",
+        "icon" : "🌀",
+        "mode" : "silent",
+        "needsConfirmation" : null,
+        "packageName" : "System",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Screen Saver"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -426,6 +474,38 @@
         "title" : "Decode JWT"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Whois of clipboard URL.",
+        "filename" : "whois.sh",
+        "icon" : "🌐",
+        "mode" : "silent",
+        "needsConfirmation" : true,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Whois of clipboard URL"
+      },
+      {
+        "author" : {
+          "name" : "Maxim Krouk",
+          "url" : "https:\/\/github.com\/maximkrouk"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Records simulator to Downloads folder with a filename from the clipboard",
+        "filename" : "record-simulator.sh",
+        "icon" : "📱",
+        "mode" : "compact",
+        "needsConfirmation" : true,
+        "packageName" : "Developer Utils",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Record Simulator"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -437,6 +517,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Local IPv4"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Get IPv6 address of URL",
+        "filename" : "get-url-ip-v6.sh",
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "URL IPv6"
       },
       {
         "author" : null,
@@ -465,6 +561,22 @@
         "title" : "Generate UUID"
       },
       {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Get IPv4 address of URL",
+        "filename" : "get-url-ip-v4.sh",
+        "icon" : "🌐",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "URL IPv4"
+      },
+      {
         "author" : null,
         "currentDirectoryPath" : null,
         "description" : null,
@@ -476,6 +588,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Copy Lorem Ipsum"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Create a GitHub Gist from clipboard contents and copy Gist URL.",
+        "filename" : "create-github-gist.sh",
+        "icon" : "images\/github-logo.png",
+        "mode" : "compact",
+        "needsConfirmation" : true,
+        "packageName" : "GitHub",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Create GitHub Gist from clipboard"
       },
       {
         "author" : null,
@@ -502,6 +630,22 @@
         "refreshTime" : null,
         "schemaVersion" : 1,
         "title" : "Decode Base64"
+      },
+      {
+        "author" : {
+          "name" : "Caleb Stauffer",
+          "url" : "https:\/\/github.com\/crstauf"
+        },
+        "currentDirectoryPath" : null,
+        "description" : "Save clipboard URL to Wayback Machine",
+        "filename" : "wayback-machine-save.sh",
+        "icon" : "images\/ia-logo.jpg",
+        "mode" : "compact",
+        "needsConfirmation" : null,
+        "packageName" : "Internet",
+        "refreshTime" : null,
+        "schemaVersion" : 1,
+        "title" : "Save clipboard URL to Wayback Machine"
       },
       {
         "author" : null,

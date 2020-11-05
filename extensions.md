@@ -28,6 +28,8 @@ This repository contains sample commands and documentation to write your own one
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
+| 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values in your Clipboard to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
+| 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values in your Clipboard to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
 
 ## Dashboard
 
@@ -45,6 +47,13 @@ This repository contains sample commands and documentation to write your own one
 | 💻 | [Encode Base64](developer-utils/encode-base64.sh) | N/A | Raycast |
 | 💻 | [Generate UUID](developer-utils/generate-uuid.sh) | N/A | Raycast |
 | 💻 | [Prettify JSON](developer-utils/prettify-json.sh) | N/A | Raycast |
+| 📱 | [Record Simulator](developer-utils/record-simulator.sh) | Records simulator to Downloads folder with a filename from the clipboard | [Maxim Krouk](https://github.com/maximkrouk) |
+
+#### GitHub
+
+| Icon | Title | Description | Author |
+| ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/github-logo.png?raw=true" width="20" height="20"> | [Create GitHub Gist from clipboard](developer-utils/create-github-gist.sh) | Create a GitHub Gist from clipboard contents and copy Gist URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Internet
 
@@ -54,6 +63,10 @@ This repository contains sample commands and documentation to write your own one
 | 🌐 | [External IPv6](developer-utils/get-external-ip-v6.sh) | N/A | Raycast |
 | 🌐 | [Local IPv4](developer-utils/get-local-ip-v4.sh) | N/A | Raycast |
 | 🌐 | [Local IPv6](developer-utils/get-local-ip-v6.sh) | N/A | Raycast |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/developer-utils/images/ia-logo.jpg?raw=true" width="20" height="20"> | [Save clipboard URL to Wayback Machine](developer-utils/wayback-machine-save.sh) | Save clipboard URL to Wayback Machine | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [URL IPv4](developer-utils/get-url-ip-v4.sh) | Get IPv4 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [URL IPv6](developer-utils/get-url-ip-v6.sh) | Get IPv6 address of URL | [Caleb Stauffer](https://github.com/crstauf) |
+| 🌐 | [Whois of clipboard URL](developer-utils/whois.sh) | Whois of clipboard URL. | [Caleb Stauffer](https://github.com/crstauf) |
 
 #### Xcode
 
@@ -94,6 +107,7 @@ This repository contains sample commands and documentation to write your own one
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | ♻️ | [Restart](system/restart.applescript) | N/A | Raycast |
+| 🌀 | [Screen Saver](system/screensaver.sh) | A script command to start your current screen saver. | [Valentin Chrétien](https://twitter.com/valentinchrt) |
 | 🛌 | [Shut Down](system/shutdown.applescript) | N/A | Raycast |
 | 😴 | [Sleep](system/sleep.applescript) | N/A | Raycast |
 | 🖥 | [Toggle Desktop Icons](system/toggle-desktop-icons.applescript) | A script command to show and hide icons of Desktop folder | [Raycast](https://raycast.com) |
