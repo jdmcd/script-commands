@@ -10,9 +10,7 @@
 # @raycast.authorURL https://github.com/crstauf
 # @raycast.description Whois of clipboard URL.
 # @raycast.packageName Internet
-# @raycast.needsConfirmation true
 # @raycast.icon 🌐
+# @raycast.argument1 { "type": "text", "placeholder": "domain" }
 
-clipboard=$(pbpaste)
-
-open https://who.is/whois/$clipboard
+open "https://who.is/whois/${1}"
