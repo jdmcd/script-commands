@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Whois of Clipboard URL
+# @raycast.title Whois of Domain
 # @raycast.mode silent
 
 # Optional parameters:
