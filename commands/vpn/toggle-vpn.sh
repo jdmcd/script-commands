@@ -10,7 +10,8 @@
 # @raycast.icon https://s1.nordcdn.com/nordvpn/media/1.562.0/images/global/favicon/favicon-32x32.png
 
 status=$(networksetup -showpppoestatus "NordVPN OVPN")
-if [ $status -eq "Disconnected" ] then
+if [ $status == "disconnected" ] 
+then
     networksetup -connectpppoeservice "NordVPN OVPN"
 else
     networksetup -disconnectpppoeservice "NordVPN OVPN"
