@@ -2,11 +2,16 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title End VPN
+# @raycast.title Start VPN
 # @raycast.packageName VPN
 # @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon https://s1.nordcdn.com/nordvpn/media/1.562.0/images/global/favicon/favicon-32x32.png
 
-networksetup -disconnectpppoeservice "NordVPN OVPN"
+status=$(networksetup -showpppoestatus "NordVPN OVPN")
+if [ $status -eq "Disconnected" ] then
+    networksetup -connectpppoeservice "NordVPN OVPN"
+else
+    networksetup -disconnectpppoeservice "NordVPN OVPN"
+fi
