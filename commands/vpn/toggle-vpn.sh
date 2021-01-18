@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Start VPN
+# @raycast.title Toggle VPN
 # @raycast.packageName VPN
 # @raycast.mode compact
 
